@@ -2,12 +2,19 @@ basscompressor
 ==============
 
 bass guitar compressor pedal circuit
+
+Editing
+-------
+
+Drawn with gEDA [http://www.geda-project.org/]
+
+
 This is a schematic pulled without remorse from the excellent
-work on http://tagboardeffects.blogspot.co.nz/2012/03/really-cheap-compressor.html
+work on [http://tagboardeffects.blogspot.co.nz/2012/03/really-cheap-compressor.html]
 
 I've modified it minimally in order to get it linked into the
 signal chain of a Jfet based preamp circuit based on 
-http://www.albertkreuzer.com/preamp.htm.
+[http://www.albertkreuzer.com/preamp.htm].
 
 The sound is OK but it distorts with anything above a modest input
 and if I don't pull the gain down a bit with an additional resistor
