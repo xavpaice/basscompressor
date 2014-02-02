@@ -5,7 +5,7 @@ C 52400 48400 1 0 0 led-1.sym
 T 53200 49000 5 10 0 0 0 0 1
 device=LED
 T 53200 48800 5 10 1 1 0 0 1
-refdes=LED2
+refdes=LED1
 T 53200 49200 5 10 0 0 0 0 1
 symversion=0.1
 }
@@ -16,7 +16,9 @@ device=TL072
 T 48000 47050 5 10 0 0 0 0 1
 footprint=DIP8
 T 47500 46600 5 10 1 1 0 0 1
-refdes=U6
+refdes=U1
+T 47300 45700 5 10 0 0 0 0 1
+slot=2
 }
 C 47300 48500 1 180 1 tl072-1.sym
 {
@@ -25,9 +27,9 @@ device=TL072
 T 48000 47150 5 10 0 0 180 6 1
 footprint=DIP8
 T 47500 47600 5 10 1 1 180 6 1
-refdes=U8
+refdes=U1
 T 47300 48500 5 10 0 0 180 6 1
-slot=2
+slot=1
 }
 C 53300 48300 1 180 0 led-1.sym
 {
@@ -45,7 +47,7 @@ C 45200 45600 1 180 0 capacitor-2.sym
 T 45000 44900 5 10 0 0 180 0 1
 device=POLARIZED_CAPACITOR
 T 45000 45100 5 10 1 1 180 0 1
-refdes=C4
+refdes=C2
 T 45000 44700 5 10 0 0 180 0 1
 symversion=0.1
 T 45000 45800 5 10 1 1 180 0 1
@@ -57,7 +59,7 @@ C 45200 46400 1 180 0 resistor-1.sym
 T 44900 46000 5 10 0 0 180 0 1
 device=RESISTOR
 T 44700 46000 5 10 1 1 0 0 1
-refdes=R8
+refdes=R3
 T 44700 46400 5 10 1 1 0 0 1
 value=33K
 }
@@ -66,14 +68,14 @@ C 47500 43900 1 0 0 photo-resistor-1.sym
 T 48200 44600 5 10 0 0 0 0 1
 device=PHOTORESISTOR
 T 47700 44600 5 10 1 1 0 0 1
-refdes=R6
+refdes=R8
 }
 C 48400 43600 1 180 0 resistor-1.sym
 {
 T 48100 43200 5 10 0 0 180 0 1
 device=RESISTOR
 T 47900 43800 5 10 1 1 180 0 1
-refdes=R8
+refdes=R9
 T 48400 43800 5 10 1 1 180 0 1
 value=1M
 }
@@ -88,7 +90,7 @@ C 51300 44000 1 0 0 capacitor-2.sym
 T 51500 44700 5 10 0 0 0 0 1
 device=POLARIZED_CAPACITOR
 T 51500 44500 5 10 1 1 0 0 1
-refdes=C6
+refdes=C7
 T 51500 44900 5 10 0 0 0 0 1
 symversion=0.1
 T 51300 44000 5 10 1 1 0 0 1
@@ -105,7 +107,7 @@ C 45600 44100 1 0 0 resistor-1.sym
 T 45900 44500 5 10 0 0 0 0 1
 device=RESISTOR
 T 45900 44400 5 10 1 1 0 0 1
-refdes=R12
+refdes=R7
 T 45800 43900 5 10 1 1 0 0 1
 value=220K
 }
@@ -114,7 +116,7 @@ C 44400 44000 1 0 0 capacitor-1.sym
 T 44600 44700 5 10 0 0 0 0 1
 device=CAPACITOR
 T 44600 44500 5 10 1 1 0 0 1
-refdes=C10
+refdes=C3
 T 44600 44900 5 10 0 0 0 0 1
 symversion=0.1
 T 44600 43800 5 10 1 1 0 0 1
@@ -138,7 +140,7 @@ C 45000 47800 1 0 0 resistor-1.sym
 T 45300 48200 5 10 0 0 0 0 1
 device=RESISTOR
 T 45200 48100 5 10 1 1 0 0 1
-refdes=R16
+refdes=R1
 T 45200 47600 5 10 1 1 0 0 1
 value=33K
 }
@@ -149,7 +151,7 @@ C 47600 48800 1 0 0 resistor-1.sym
 T 47900 49200 5 10 0 0 0 0 1
 device=RESISTOR
 T 47800 49100 5 10 1 1 0 0 1
-refdes=R16
+refdes=R4
 T 47800 48600 5 10 1 1 0 0 1
 value=10K
 }
@@ -158,7 +160,7 @@ C 47600 49600 1 0 0 resistor-1.sym
 T 47900 50000 5 10 0 0 0 0 1
 device=RESISTOR
 T 47800 49900 5 10 1 1 0 0 1
-refdes=R16
+refdes=R2
 T 47800 49400 5 10 1 1 0 0 1
 value=10K
 }
@@ -167,7 +169,7 @@ C 50300 49300 1 270 0 resistor-variable-1.sym
 T 51200 48500 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 50700 49300 5 10 1 1 270 0 1
-refdes=R18
+refdes=R6
 T 50100 49200 5 10 1 1 270 0 1
 value=100K Log
 }
@@ -185,7 +187,7 @@ C 48700 47400 1 270 0 capacitor-1.sym
 T 49400 47200 5 10 0 0 270 0 1
 device=CAPACITOR
 T 49200 47200 5 10 1 1 270 0 1
-refdes=C8
+refdes=C4
 T 49600 47200 5 10 0 0 270 0 1
 symversion=0.1
 T 48500 47200 5 10 1 1 270 0 1
@@ -199,7 +201,7 @@ C 43200 47700 1 270 0 capacitor-2.sym
 T 43900 47500 5 10 0 0 270 0 1
 device=POLARIZED_CAPACITOR
 T 43700 47500 5 10 1 1 270 0 1
-refdes=C12
+refdes=C1
 T 44100 47500 5 10 0 0 270 0 1
 symversion=0.1
 T 43000 47500 5 10 1 1 270 0 1
@@ -215,7 +217,7 @@ C 53900 47000 1 90 0 resistor-1.sym
 T 53500 47300 5 10 0 0 90 0 1
 device=RESISTOR
 T 53500 47500 5 10 1 1 270 0 1
-refdes=R8
+refdes=R10
 T 53900 47500 5 10 1 1 270 0 1
 value=1K
 }
@@ -226,7 +228,7 @@ C 51300 47900 1 0 0 capacitor-2.sym
 T 51500 48600 5 10 0 0 0 0 1
 device=POLARIZED_CAPACITOR
 T 51500 48400 5 10 1 1 0 0 1
-refdes=C14
+refdes=C5
 T 51500 48800 5 10 0 0 0 0 1
 symversion=0.1
 T 51300 47900 5 10 1 1 0 0 1
@@ -247,7 +249,7 @@ C 43900 45300 1 270 0 resistor-1.sym
 T 44300 45000 5 10 0 0 270 0 1
 device=RESISTOR
 T 44200 45100 5 10 1 1 270 0 1
-refdes=R14
+refdes=R5
 T 44200 44700 5 10 1 1 270 0 1
 value=1M
 }
@@ -256,7 +258,7 @@ C 47500 42500 1 0 0 capacitor-1.sym
 T 47700 43200 5 10 0 0 0 0 1
 device=CAPACITOR
 T 47700 43000 5 10 1 1 0 0 1
-refdes=C2
+refdes=C6
 T 47700 43400 5 10 0 0 0 0 1
 symversion=0.1
 T 47700 42300 5 10 1 1 0 0 1
@@ -271,7 +273,7 @@ C 53700 46000 1 270 0 resistor-variable-1.sym
 T 54600 45200 5 10 0 0 270 0 1
 device=VARIABLE_RESISTOR
 T 54100 45400 5 10 1 1 270 0 1
-refdes=R10
+refdes=R11
 T 53700 46000 5 10 1 1 0 0 1
 value=10K Log
 }
