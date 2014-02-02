@@ -7,7 +7,8 @@ Editing
 -------
 
 Drawn with gEDA [http://www.geda-project.org/]
-
+Note the additional numbering (j29 next to R1 for example)
+is my breadboard locations
 
 This is a schematic pulled without remorse from the excellent
 work on [http://tagboardeffects.blogspot.co.nz/2012/03/really-cheap-compressor.html]
